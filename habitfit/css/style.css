@@ -7290,7 +7290,7 @@ a {
   transition: .3s all ease;
   color: #d291bc; }
   a:hover, a:active, a:focus {
-    color: #d291bc;
+    color: #000000;
     outline: none !important;
     text-decoration: none !important; }
 
@@ -8458,7 +8458,7 @@ textarea.form-control {
     font-weight: 600;
     letter-spacing: 1px;
     position: absolute;
-    bottom: 0;
+    bottom: -35px;
     left: 0;
     right: 0;
     width: 60%;
@@ -8876,3 +8876,310 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+#contact-form-holder{
+  width: 450px;
+  position: relative;
+  margin:auto;
+}
+
+.contact-detalis {
+	/* width: 420px; */
+	padding: 20px;
+	background: #ffffff;
+	/* position: absolute; */
+	/* right: 120px; */
+	/* top: 80px; */
+	-webkit-box-shadow: 6px 6px 50px rgba(198, 198, 198, 0.2);
+	box-shadow: 6px 6px 50px rgba(198, 198, 198, 0.2);
+}
+
+.contact-detalis .open-time {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.contact-detalis .open-time h5 {
+	font-size: 20px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+	float: left;
+}
+
+.contact-detalis .open-time ul {
+	float: right;
+}
+
+.contact-detalis .open-time ul li {
+	font-size: 14px;
+	color: #000000;
+	list-style: none;
+	font-weight: 600;
+	line-height: 30px;
+	position: relative;
+	padding-right: 108px;
+}
+
+.contact-detalis .open-time ul li span {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.contact-detalis .contact-form h5 {
+	font-size: 20px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.contact-detalis .contact-form form input {
+	width: calc(53% - 20px);
+	margin-right: 20px;
+	float: left;
+	height: 40px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: #272727;
+	border: 1px solid #e1e1e1;
+	padding-left: 20px;
+	border-radius: 2px;
+}
+
+.contact-detalis .contact-form form input.phone {
+	width: 47%;
+	margin-right: 0;
+}
+
+.contact-detalis .contact-form form input.email {
+	width: 100%;
+	margin-right: 0;
+}
+
+.contact-detalis .contact-form form input::-webkit-input-placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+.contact-detalis .contact-form form input::-moz-placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+.contact-detalis .contact-form form input:-ms-input-placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+.contact-detalis .contact-form form input::-ms-input-placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+.contact-detalis .contact-form form input::placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+.contact-detalis .contact-form form textarea {
+	width: 100%;
+	height: 80px;
+	resize: none;
+	font-size: 16px;
+	color: #272727;
+	border: 1px solid #e1e1e1;
+	border-radius: 2px;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 18px;
+}
+
+.contact-detalis .contact-form form textarea::-webkit-input-placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+.contact-detalis .contact-form form textarea::-moz-placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+.contact-detalis .contact-form form textarea:-ms-input-placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+.contact-detalis .contact-form form textarea::-ms-input-placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+.contact-detalis .contact-form form textarea::placeholder {
+	color: #272727;
+	font-weight: 600;
+}
+
+/*---------------------
+  Footer Section
+-----------------------*/
+
+.footer-logo-item {
+	margin-bottom: 30px;
+}
+
+.footer-logo-item .f-logo {
+	margin-bottom: 20px;
+}
+
+.footer-logo-item .f-logo a {
+	display: inline-block;
+}
+
+.footer-logo-item p {
+	color: #fff;
+	margin-bottom: 32px;
+}
+
+.footer-logo-item .social-links h6 {
+  color: #000;
+  font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.footer-logo-item .social-links a {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 32px;
+}
+
+.footer-logo-item .social-links a:last-child {
+	margin-right: 0;
+}
+
+.footer-widget {
+	margin-bottom: 30px;
+}
+
+.footer-widget ul,
+.footer-widget li{
+  margin: 0;
+  padding: 0;
+}
+
+.footer-widget h5 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.footer-widget .footer-blog .fb-item {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.footer-widget .footer-blog .fb-item:hover h6 {
+	color: #e4381C;
+}
+
+.footer-widget .footer-blog .fb-item h6 {
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.footer-widget .footer-blog .fb-item span {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: block;
+	color: #afb4bf;
+}
+
+.footer-widget .footer-blog .fb-item span i {
+	color: #e4381C;
+	margin-right: 5px;
+}
+
+.footer-widget .workout-program li {
+	list-style: none;
+}
+
+.footer-widget .workout-program li a {
+	display: block;
+	font-size: 16px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+	line-height: 18px;
+	margin-bottom: 22px;
+}
+
+.footer-widget .footer-info li {
+	list-style: none;
+	font-size: 16px;
+	color: #0f3257;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 20px;
+}
+
+.footer-widget .footer-info li i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 24px;
+	color: #ff7900;
+}
+
+.footer-widget .footer-info li span {
+	color: #ffffff;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+}
+
+.copyright-text {
+	background: #000000;
+	border-top: 1px solid #0a0a0a;
+	padding: 20px 0;
+	margin-top: 20px;
+}
+
+.copyright-text .ct-inside {
+	font-size: 14px;
+	color: #afb4bf;
+}
+
+.copyright-text .ct-inside a {
+	font-weight: 600;
+	color: #e4381C;
+}
+
+.card-body .card-title{
+  text-align: center;
+  font-weight: 600;
+}
+.card-body .price {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: block; }
+  .card-body .price sup {
+    font-size: 24px;
+    top: -1em;
+    color: #d291bc; }
+  .card-body .price .number {
+    font-size: 42px;
+  font-weight: 600;
+  color: #12bd00; }
+
+  
