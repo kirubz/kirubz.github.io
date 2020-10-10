@@ -50,13 +50,13 @@
     <section class="hero-wrap js-fullheight" style="background-image: url('images/banner.png');">
         <!--div class="overlay"></div-->
         <div class="container">
-            <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start">
-                <div class="col-md-12 ftco-animate">
+            <div class="row no-gutters slider-text js-fullheight justify-content-start">
+                <div class="col-md-12 ftco-animate header-text-position">
                     <h1 class="typewrite mb-3" data-period="4000" data-type='[ "Welcome to HabitFit", "Essential for joyful living", "Effective therapy for stress free living", "Personalised classes to suit individuals need"]'>
                         <span class="wrap"></span>
                     </h1>
-                    <h2 class="mb-3">Your 'Trusted Partner' to help you in your fitness journey.</h2>
-                    <p class="text-dark mb-5">Our passion is to bring you different forms of fitness at your doorstep to you and your family. Our accredited trainers will help you meet your fitness goals with help of a schedule of activities and nutrition.</p>
+                    <h2 class="mb-3">Your <span style="color: #12bd00;">'Trusted Partner'</span> to help you in your fitness journey.</h2>
+                    <p class="text-dark mb-5 desc">Our passion is to bring you different forms of fitness at your doorstep to you and your family. Our accredited trainers will help you meet your fitness goals with help of a schedule of activities and nutrition.</p>
                     <p>
                         <a href="#contact-form-holder" class="btn btn-danger p-3 px-4 popup-with-form">
 							Schedule a Free Class
@@ -509,11 +509,13 @@
             <div class="contact-form">
                 <h5>Contact Us</h5>
                 <form action="#" name="contact-form" id="contact-form" class="white-popup-block">
-                    <input type="text" placeholder="Name" name="name">
-                    <input type="text" class="phone" placeholder="Phone" name="phone">
-                    <input type="email" class="email" placeholder="Email Address" name="emailaddress">
-                    <textarea placeholder="Message" name="message"></textarea>
-                    <button type="submit" class="site-btn">Submit Now</button>
+                    <input type="text" placeholder="Name" class="form-control" name="name">
+                    <input type="text" placeholder="Phone" class="form-control" name="phone">
+                    <input type="email" placeholder="Email Address" class="form-control" name="emailaddress">
+                    <textarea placeholder="Message" name="message" class="form-control"></textarea>
+                    <div class="text-right">
+                        <button type="submit" class="btn btn-primary">Submit Now</button>
+                    </div>
                 </form>
             </div>
         </div>

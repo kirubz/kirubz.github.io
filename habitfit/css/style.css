@@ -11507,7 +11507,8 @@ textarea.form-control {
 .contact-form .form-control {
     border: transparent !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
-    height: 58px !important;
+    height: 40px !important;
+    margin-bottom: 10px;
     padding-left: 0;
     padding-right: 0;
     background: transparent !important;
@@ -12084,6 +12085,8 @@ textarea.form-control {
     margin-bottom: 20px;
 }
 
+
+/* 
 .contact-detalis .contact-form form input {
     width: calc(53% - 20px);
     margin-right: 20px;
@@ -12096,6 +12099,8 @@ textarea.form-control {
     padding-left: 20px;
     border-radius: 2px;
 }
+
+
 
 .contact-detalis .contact-form form input.phone {
     width: 47%;
@@ -12168,7 +12173,7 @@ textarea.form-control {
 .contact-detalis .contact-form form textarea::placeholder {
     color: #272727;
     font-weight: 600;
-}
+} */
 
 
 /*---------------------
@@ -12337,4 +12342,29 @@ textarea.form-control {
     font-size: 42px;
     font-weight: 600;
     color: #12bd00;
+}
+
+.header-text-position {
+    top: 25%;
+}
+
+@media (max-width: 767.98px) {
+    .header-text-position {
+        top: 10%;
+    }
+    .hero-wrap .slider-text h1 {
+        font-size: 34px;
+    }
+    .hero-wrap .slider-text h2 {
+        font-size: 20px;
+    }
+    .hero-wrap .slider-text p.desc {
+        font-size: 14px;
+    }
+    .hero-wrap .slider-text .btn {
+        margin-bottom: 10px;
+    }
+    #contact-form-holder {
+        width: 100% !important;
+    }
 }
