@@ -9755,7 +9755,7 @@ a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: #d291bc;
+    color: #f07200;
 }
 
 a:hover,
@@ -9782,7 +9782,7 @@ h5,
 }
 
 .text-primary {
-    color: #d291bc !important;
+    color: #f07200 !important;
 }
 
 .ftco-navbar-light {
@@ -12367,4 +12367,14 @@ textarea.form-control {
     #contact-form-holder {
         width: 100% !important;
     }
+}
+
+.choose-item h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.choose-item img {
+    height: 65px;
 }
