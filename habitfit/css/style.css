@@ -12028,13 +12028,13 @@ textarea.form-control {
     }
 }
 
-#contact-form-holder {
+.modal-holder {
     width: 450px;
     position: relative;
     margin: auto;
 }
 
-.contact-detalis {
+.contact-details {
     /* width: 420px; */
     padding: 20px;
     background: #ffffff;
@@ -12045,12 +12045,12 @@ textarea.form-control {
     box-shadow: 6px 6px 50px rgba(198, 198, 198, 0.2);
 }
 
-.contact-detalis .open-time {
+.contact-details .open-time {
     overflow: hidden;
     margin-bottom: 10px;
 }
 
-.contact-detalis .open-time h5 {
+.contact-details .open-time h5 {
     font-size: 20px;
     color: #000000;
     font-weight: 500;
@@ -12058,11 +12058,11 @@ textarea.form-control {
     float: left;
 }
 
-.contact-detalis .open-time ul {
+.contact-details .open-time ul {
     float: right;
 }
 
-.contact-detalis .open-time ul li {
+.contact-details .open-time ul li {
     font-size: 14px;
     color: #000000;
     list-style: none;
@@ -12072,13 +12072,13 @@ textarea.form-control {
     padding-right: 108px;
 }
 
-.contact-detalis .open-time ul li span {
+.contact-details .open-time ul li span {
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.contact-detalis .contact-form h5 {
+.contact-details .contact-form h5 {
     font-size: 20px;
     color: #000000;
     font-weight: 500;
@@ -12088,7 +12088,7 @@ textarea.form-control {
 
 
 /* 
-.contact-detalis .contact-form form input {
+.contact-details .contact-form form input {
     width: calc(53% - 20px);
     margin-right: 20px;
     float: left;
@@ -12103,42 +12103,42 @@ textarea.form-control {
 
 
 
-.contact-detalis .contact-form form input.phone {
+.contact-details .contact-form form input.phone {
     width: 47%;
     margin-right: 0;
 }
 
-.contact-detalis .contact-form form input.email {
+.contact-details .contact-form form input.email {
     width: 100%;
     margin-right: 0;
 }
 
-.contact-detalis .contact-form form input::-webkit-input-placeholder {
+.contact-details .contact-form form input::-webkit-input-placeholder {
     color: #272727;
     font-weight: 600;
 }
 
-.contact-detalis .contact-form form input::-moz-placeholder {
+.contact-details .contact-form form input::-moz-placeholder {
     color: #272727;
     font-weight: 600;
 }
 
-.contact-detalis .contact-form form input:-ms-input-placeholder {
+.contact-details .contact-form form input:-ms-input-placeholder {
     color: #272727;
     font-weight: 600;
 }
 
-.contact-detalis .contact-form form input::-ms-input-placeholder {
+.contact-details .contact-form form input::-ms-input-placeholder {
     color: #272727;
     font-weight: 600;
 }
 
-.contact-detalis .contact-form form input::placeholder {
+.contact-details .contact-form form input::placeholder {
     color: #272727;
     font-weight: 600;
 }
 
-.contact-detalis .contact-form form textarea {
+.contact-details .contact-form form textarea {
     width: 100%;
     height: 80px;
     resize: none;
@@ -12151,27 +12151,27 @@ textarea.form-control {
     margin-bottom: 18px;
 }
 
-.contact-detalis .contact-form form textarea::-webkit-input-placeholder {
+.contact-details .contact-form form textarea::-webkit-input-placeholder {
     color: #272727;
     font-weight: 600;
 }
 
-.contact-detalis .contact-form form textarea::-moz-placeholder {
+.contact-details .contact-form form textarea::-moz-placeholder {
     color: #272727;
     font-weight: 600;
 }
 
-.contact-detalis .contact-form form textarea:-ms-input-placeholder {
+.contact-details .contact-form form textarea:-ms-input-placeholder {
     color: #272727;
     font-weight: 600;
 }
 
-.contact-detalis .contact-form form textarea::-ms-input-placeholder {
+.contact-details .contact-form form textarea::-ms-input-placeholder {
     color: #272727;
     font-weight: 600;
 }
 
-.contact-detalis .contact-form form textarea::placeholder {
+.contact-details .contact-form form textarea::placeholder {
     color: #272727;
     font-weight: 600;
 } */
@@ -12365,7 +12365,7 @@ textarea.form-control {
     .hero-wrap .slider-text .btn {
         margin-bottom: 10px;
     }
-    #contact-form-holder {
+    .modal-holder {
         width: 100% !important;
     }
 }
