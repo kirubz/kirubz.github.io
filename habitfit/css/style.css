@@ -12379,3 +12379,28 @@ textarea.form-control {
 .choose-item img {
     height: 65px;
 }
+
+#ftco-nav a {
+    font-size: 25px;
+}
+
+.trainer {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+    background-color: #fff;
+}
+
+.trainer .img {
+    width: 400px;
+}
+
+.trainer .details {
+    padding: 10px;
+    width: 500px;
+}
+
+.trainer .details dl {
+    font-size: 20px;
+    color: black
+}
