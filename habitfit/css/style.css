@@ -12389,10 +12389,14 @@ textarea.form-control {
     position: relative;
     margin: auto;
     background-color: #fff;
+    padding: 20px;
 }
 
-.trainer .img {
+.trainer .ribbon {
+    position: relative;
     width: 400px;
+    background-size: cover;
+    background-position: center top;
 }
 
 .trainer .details {
@@ -12403,4 +12407,55 @@ textarea.form-control {
 .trainer .details dl {
     font-size: 20px;
     color: black
+}
+
+.ribbon1,
+.ribbon2 {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    position: absolute;
+    left: -8px;
+    bottom: 80px;
+    background: #1fbbe3;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.ribbon2 {
+    background: #c7372f;
+    bottom: 20px;
+}
+
+.ribbon1:before,
+.ribbon1:after,
+.ribbon2:before,
+.ribbon2:after {
+    content: "";
+    position: absolute;
+}
+
+.ribbon1:before,
+.ribbon2:before {
+    height: 0;
+    width: 0;
+    top: -8.5px;
+    left: 0.1px;
+    border-bottom: 9px solid black;
+    border-left: 9px solid transparent;
+}
+
+.ribbon1:after,
+.ribbon2:after {
+    height: 0;
+    width: 0;
+    right: -14.5px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 15px solid #1fbbe3;
+}
+
+.ribbon2:after {
+    border-left: 15px solid #c7372f;
 }
