@@ -10601,7 +10601,7 @@ h5,
 .coach {
     width: 100%;
     display: block;
-    border: solid 1px #FF5722;
+    /* border: solid 1px #FF5722; */
 }
 
 .coach .img,
@@ -10855,11 +10855,12 @@ h5,
     font-weight: 300;
     font-size: 20px;
     margin-bottom: 0;
-    color: #fff;
+    color: #000;
 }
 
 .testimony-wrap .position {
     font-size: 13px;
+    color: #000;
 }
 
 .testimony-wrap .line {
@@ -12374,11 +12375,11 @@ textarea.form-control {
     text-transform: uppercase;
     font-weight: 600;
     margin: 10px 0px;
-    color: #12bd00;
+    color: #ff7a01;
 }
 
 .choose-item p {
-    color: #e5e6e5;
+    color: #000;
 }
 
 .choose-item img {
@@ -12471,11 +12472,11 @@ textarea.form-control {
 }
 
 #pricing-section {
-    background-color: #f6fbf2;
+    background-color: #cafbff;
 }
 
 #pricing-section .subheading {
-    color: #12bd00;
+    color: #000;
 }
 
 #pricing-section .card {
@@ -12485,6 +12486,8 @@ textarea.form-control {
     background: #fafafa;
 }
 
+
+/* 
 #pricing-section .fitness {
     border-bottom: 4px solid #287de6;
     border-top: 4px solid #287de6;
@@ -12503,7 +12506,7 @@ textarea.form-control {
 #pricing-section .senior {
     border-bottom: 4px solid #3f2fa5;
     border-top: 4px solid #3f2fa5;
-}
+} */
 
 #pricing-section .card-img-top {
     max-width: 200px;
@@ -12515,6 +12518,8 @@ textarea.form-control {
     font-size: 30px;
 }
 
+
+/* 
 #pricing-section .fitness .card-title,
 #pricing-section .fitness .price {
     color: #287de6;
@@ -12533,7 +12538,7 @@ textarea.form-control {
 #pricing-section .senior .card-title,
 #pricing-section .senior .price {
     color: #3f2fa5;
-}
+} */
 
 #pricing-section .start-from {
     color: #999999;
@@ -12557,36 +12562,41 @@ textarea.form-control {
 }
 
 .testimony-section {
-    background-color: #30b34b;
+    background-color: #cafbff;
 }
 
 .testimony-section .subheading,
 .testimony-section .mb-1 {
-    color: #fff;
+    color: #000;
 }
 
 .testimony-section .comments {
     font-size: 20px;
     font-weight: 300;
+    color: #000;
 }
 
-.action-section {
+
+/* .action-section {
     background-color: #66ad73;
-}
+} */
 
 .action-section .btn {
     font-weight: 500;
     font-size: 16px;
 }
 
+
+/* 
 .why-people,
 .ftco-gallery {
     background-color: #313630;
-}
+} */
 
-.ftco-gallery h2 {
+
+/* .ftco-gallery h2 {
     color: #fff;
-}
+} */
 
 #pricing-section li {
     margin-left: 1.5em;
@@ -12600,7 +12610,7 @@ textarea.form-control {
     display: inline-block;
     position: absolute;
     left: -1.5em;
-    color: #2bd672;
+    color: #ff7a01;
     line-height: 1.7;
     /* font-size: 12px; */
 }
