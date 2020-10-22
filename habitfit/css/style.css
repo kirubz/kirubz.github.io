@@ -10839,8 +10839,8 @@ h5,
 .testimony-wrap {
     display: block;
     position: relative;
-    background: rgba(255, 255, 255, 0.1);
-    color: rgba(0, 0, 0, 0.8);
+    /* background: rgba(255, 255, 255, 0.1); */
+    color: #fff;
 }
 
 .testimony-wrap .user-img {
@@ -10851,10 +10851,10 @@ h5,
 }
 
 .testimony-wrap .name {
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 20px;
     margin-bottom: 0;
-    color: #000;
+    color: #fff;
 }
 
 .testimony-wrap .position {
@@ -12461,4 +12461,117 @@ textarea.form-control {
 
 .ribbon2:after {
     border-left: 15px solid #c7372f;
+}
+
+#pricing-section .card {
+    border: 1px solid rgba(13, 13, 13, 0);
+    box-shadow: #eeecec 0px 4px 20px;
+    padding-bottom: 5px;
+    background: #fafafa;
+}
+
+#pricing-section .fitness {
+    border-bottom: 4px solid #287de6;
+    border-top: 4px solid #287de6;
+}
+
+#pricing-section .yoga {
+    border-bottom: 4px solid #bd003f;
+    border-top: 4px solid #bd003f;
+}
+
+#pricing-section .junior {
+    border-bottom: 4px solid #f6403d;
+    border-top: 4px solid #f6403d;
+}
+
+#pricing-section .senior {
+    border-bottom: 4px solid #3f2fa5;
+    border-top: 4px solid #3f2fa5;
+}
+
+#pricing-section .card-img-top {
+    max-width: 200px;
+    margin: 20px auto 0;
+}
+
+#pricing-section .card-body .card-title {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#pricing-section .fitness .card-title {
+    color: #287de6;
+}
+
+#pricing-section .yoga .card-title {
+    color: #bd003f;
+}
+
+#pricing-section .junior .card-title {
+    color: #f6403d;
+}
+
+#pricing-section .senior .card-title {
+    color: #3f2fa5;
+}
+
+#pricing-section .starting-from {
+    color: #b3b3b3 !important;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+#pricing-section .card-body .price sup,
+#pricing-section .card-body .price .number {
+    color: #000;
+}
+
+#pricing-section .pricing-text li {
+    color: #4d4d4d;
+}
+
+.testimony-section {
+    background-color: #30b34b;
+}
+
+.testimony-section .subheading,
+.testimony-section .mb-1 {
+    color: #fff;
+}
+
+.action-section {
+    background-color: #7dddf1;
+}
+
+.action-section h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.action-btn {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    font-size: 22px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 62px;
+    color: #e4381C;
+    border-radius: 50%;
+    position: relative;
+    padding-left: 5px;
+}
+
+.action-btn:after {
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    opacity: 0.3;
+    border-radius: 50%;
+    content: "";
 }
