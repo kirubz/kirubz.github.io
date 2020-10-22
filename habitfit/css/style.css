@@ -12587,3 +12587,20 @@ textarea.form-control {
 .ftco-gallery h2 {
     color: #fff;
 }
+
+#pricing-section li {
+    margin-left: 1.5em;
+    position: relative;
+}
+
+#pricing-section li:before {
+    font-family: 'icomoon';
+    content: '\f0a9';
+    margin-right: .5em;
+    display: inline-block;
+    position: absolute;
+    left: -1.5em;
+    color: #2bd672;
+    line-height: 1.7;
+    /* font-size: 12px; */
+}
