@@ -10600,7 +10600,7 @@ h5,
 .coach {
     width: 100%;
     display: block;
-    margin-bottom: 30px;
+    border: solid 1px #FF5722;
 }
 
 .coach .img,
