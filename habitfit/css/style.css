@@ -75,8 +75,8 @@ body {
     font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
+    line-height: 1.6;
+    color: #4d4d4d;
     text-align: left;
     background-color: #fff;
 }
@@ -9735,9 +9735,9 @@ a.text-dark:focus {
 body {
     font-family: 'IBM Plex Sans', Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.6;
     font-weight: 400;
-    color: #b3b3b3;
+    color: #4d4d4d;
 }
 
 body.menu-show {
@@ -12374,6 +12374,11 @@ textarea.form-control {
     text-transform: uppercase;
     font-weight: 600;
     margin: 10px 0px;
+    color: #12bd00;
+}
+
+.choose-item p {
+    color: #e556e5;
 }
 
 .choose-item img {
@@ -12556,31 +12561,10 @@ textarea.form-control {
 }
 
 .action-section {
-    background-color: none;
+    background-color: #66ad73;
 }
 
-.action-btn {
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    font-size: 22px;
-    background: #ffffff;
-    text-align: center;
-    line-height: 62px;
-    color: #e4381C;
-    border-radius: 50%;
-    position: relative;
-    padding-left: 5px;
-}
-
-.action-btn:after {
-    position: absolute;
-    left: -5px;
-    top: -5px;
-    width: 70px;
-    height: 70px;
-    background: #ffffff;
-    opacity: 0.3;
-    border-radius: 50%;
-    content: "";
+.action-section .btn {
+    font-weight: 500;
+    font-size: 16px;
 }
