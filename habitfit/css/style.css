@@ -12465,6 +12465,10 @@ textarea.form-control {
     border-left: 15px solid #c7372f;
 }
 
+#pricing-section {
+    background-color: #f6fbf2;
+}
+
 #pricing-section .subheading {
     color: #12bd00;
 }
@@ -12552,13 +12556,7 @@ textarea.form-control {
 }
 
 .action-section {
-    background-color: #ff7a01;
-}
-
-.action-section h2 {
-    font-size: 22px;
-    font-weight: 500;
-    color: #fff;
+    background-color: none;
 }
 
 .action-btn {
