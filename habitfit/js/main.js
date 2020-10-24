@@ -48,11 +48,14 @@ AOS.init({
     var carousel = function() {
         $('.carousel-testimony').owlCarousel({
             center: false,
+            autoHeight: true,
             loop: true,
             items: 1,
             margin: 30,
             stagePadding: 0,
             nav: true,
+            mouseDrag: true,
+            touchDrag: false,
             navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
             // responsive: {
             //     0: {
@@ -67,6 +70,31 @@ AOS.init({
             // }
         });
 
+        $('.carousel-gallery').owlCarousel({
+            center: false,
+            loop: true,
+            items: 1,
+            margin: 30,
+            stagePadding: 0,
+            nav: true,
+            mouseDrag: true,
+            touchDrag: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
     };
     carousel();
 
