@@ -57,7 +57,7 @@ AOS.init({
             mouseDrag: true,
             touchDrag: false,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 10000,
             autoplayHoverPause: true,
             navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
             // responsive: {
@@ -83,7 +83,7 @@ AOS.init({
             mouseDrag: true,
             touchDrag: false,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 10000,
             autoplayHoverPause: true,
             navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
             responsive: {
