@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Segoe-Italic';
+    src: url("./segoeuii.eot");
+    src: local("☺"), url("./segoeuii.woff") format("woff"), url("./segoeuii.ttf") format("truetype"), url("./segoeuii.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    src: url("./segoeui.eot");
+    src: local("☺"), url("./segoeui.ttf") format("woff"), url("./segoeui.ttf") format("truetype"), url("./segoeui.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI-Light';
+    src: url("./segoeuil.eot");
+    src: local("☺"), url("./segoeuil.woff") format("woff"), url("./segoeuil.ttf") format("truetype"), url("./segoeuil.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI-Bold';
+    src: url("./segoeuib.eot");
+    src: local("☺"), url("./segoeuib.woff") format("woff"), url("./segoeuib.ttf") format("truetype"), url("./segoeuib.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI-Semibold';
+    src: url("./seguisb.eot");
+    src: local("☺"), url("./seguisb.woff") format("woff"), url("./seguisb.ttf") format("truetype"), url("./seguisb.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
